@@ -1,0 +1,5 @@
+for i in range(0,len(levels)):
+    # Focus.
+    SP[0,1].plot(levels[i],0, color=Mcolors[i],markersize=6,marker='o')
+    # Directrix.
+    SP[0,1].axvline(-levels[i], color=Mcolors[i],linewidth=3)
