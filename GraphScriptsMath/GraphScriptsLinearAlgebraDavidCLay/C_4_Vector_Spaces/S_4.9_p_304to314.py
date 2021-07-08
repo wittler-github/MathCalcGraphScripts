@@ -21,7 +21,7 @@ for i in range(2):
 
 print("Matrix M vector product iteration\n")
 
-for x in range(0,16):
+for x in range(0,150):
     print("\n x%s = %s" % (x_nr, np.around(xkpo,5)))
     xkpo = M.dot(xk)
     x_nr += 1
